@@ -22,7 +22,7 @@ The scripts and workflows are copied with small edits. `CREDITS.md` carries the 
 - **No router skill and no setup skill.** With one skill there is nothing to route between and nothing to configure. Add a router when the user-invoked skills are too many to remember.
 - **Evals live beside the skill.** `prompt-engineering` keeps test cases in its own `evals/` folder, in the layout `claude plugin eval` reads. Upstream has none. They are not run in CI, because each run is a billed model call.
 - **Bundled source text.** `prompt-engineering` ships the text of the paper it draws on, under that paper's CC BY 4.0 licence. The em-dash rule exempts verbatim text for this reason.
-- **Main is protected.** Upstream goes through pull requests by habit. Here a ruleset requires a pull request and a passing Check before anything reaches `main`.
+- **Main is protected.** Upstream goes through pull requests by habit. Here a ruleset requires a pull request and a passing Check before anything reaches `main`. A repo admin may merge a pull request past the Check, because the "chore: version skills" pull request is opened by the Release workflow and a pull request opened by a workflow never starts the Check.
 - **The Check workflow also runs `check-plugin-version`.** Upstream ships the script but does not run it in CI.
 
 ## Consequences
