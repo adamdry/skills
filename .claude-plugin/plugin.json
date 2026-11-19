@@ -1,0 +1,21 @@
+{
+  "name": "adamdry-skills",
+  "version": "0.0.0",
+  "description": "Adam Dry's agent skills. Small, easy to adapt, and built on sources you can check.",
+  "author": {
+    "name": "Adam Dry",
+    "url": "https://github.com/adamdry"
+  },
+  "homepage": "https://github.com/adamdry/skills",
+  "repository": "https://github.com/adamdry/skills",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "engineering",
+    "prompt-engineering",
+    "prompts"
+  ],
+  "skills": [
+    "./skills/engineering/prompt-engineering"
+  ]
+}

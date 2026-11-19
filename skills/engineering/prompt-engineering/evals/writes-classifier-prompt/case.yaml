@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: writes-classifier-prompt
+expected_outcome: |
+  The context is complete, so the response writes the prompt without interviewing. It starts from a simple prompt, names the template variable and marks it untrusted, fixes the allowed answers and how the code extracts the label, justifies any added technique with a quoted section of The Prompt Report, and ends with a test plan that uses the 150/50 split and weights missed urgent repairs.
