@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: interviews-on-bare-prompt
+expected_outcome: |
+  The prompt arrives with no goal, no description of a good output, no model and no consumer. The response gives a first-pass review in the same reply, says it is a first pass, and asks the user for the missing context in one numbered list that states the assumption used for each question. Findings quote The Prompt Report with section numbers, and findings that depend on an assumption say so.

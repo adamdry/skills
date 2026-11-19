@@ -1,0 +1,22 @@
+{
+  "name": "adamdry-skills",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Adam Dry's agent skills",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamdry/skills"
+  },
+  "license": "MIT",
+  "scripts": {
+    "changeset": "changeset",
+    "version": "changeset version && node scripts/sync-plugin-version.mjs",
+    "check-plugin-version": "node scripts/sync-plugin-version.mjs --check",
+    "check-frontmatter": "node scripts/check-frontmatter.mjs"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.7.0",
+    "@changesets/cli": "^2.30.0",
+    "yaml": "^2.9.1"
+  }
+}

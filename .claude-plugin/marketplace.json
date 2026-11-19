@@ -1,0 +1,22 @@
+{
+  "name": "adamdry",
+  "owner": {
+    "name": "Adam Dry",
+    "url": "https://github.com/adamdry"
+  },
+  "description": "Adam Dry's agent skills, as an installable Claude Code plugin.",
+  "plugins": [
+    {
+      "name": "adamdry-skills",
+      "source": "./",
+      "description": "Adam Dry's agent skills. Small, easy to adapt, and built on sources you can check.",
+      "category": "engineering",
+      "keywords": [
+        "skills",
+        "engineering",
+        "prompt-engineering",
+        "prompts"
+      ]
+    }
+  ]
+}
